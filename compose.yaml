@@ -1,0 +1,15 @@
+services:
+  weatheralerts:
+    build: .
+    restart: unless-stopped
+    labels:
+      # Built locally, not pulled from a registry: Watchtower must skip it.
+      - com.centurylinklabs.watchtower.enable=false
+    volumes:
+      - ./config.yaml:/config/config.yaml:ro
+      - weatheralerts-data:/data
+    ports:
+      - "127.0.0.1:8080:8080" # /healthz and /metrics, local only
+
+volumes:
+  weatheralerts-data:

@@ -1,0 +1,6 @@
+/weatheralerts
+config.yaml
+*.db
+*.db-shm
+*.db-wal
+result

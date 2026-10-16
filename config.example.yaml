@@ -1,0 +1,43 @@
+# Copy to config.yaml and edit.
+
+# Sent in the User-Agent header. api.weather.gov requires a way to contact you.
+contact: you@example.com   # or a URL, e.g. your GitHub profile
+
+# One request per interval covers every subscriber. 30s is the minimum.
+interval: 60s
+
+# Two-letter state (or marine area) codes to fetch alerts for.
+areas: [OH]
+
+database: /data/weatheralerts.db
+listen: ":8080"
+timezone: America/New_York   # for times shown in notifications
+
+# If polling NWS fails for stale_after, send one "not receiving alerts" message
+# (and one when it recovers) to ops_topic. Defaults to the first subscriber's
+# topic; "-" disables.
+stale_after: 15m
+# ops_topic: "-"
+
+ntfy:
+  url: https://ntfy.sh   # or your self-hosted server
+  token: ""              # optional; NTFY_TOKEN env var overrides
+
+subscribers:
+  - name: home
+    # On ntfy.sh anyone who knows the topic name can read it: make it unguessable.
+    topic: wx-home-change-me-to-something-random
+    # From `weatheralerts lookup 41.04,-83.65`. List both the county (C) and
+    # forecast zone (Z): storm warnings use counties, wind/winter use zones.
+    zones: [OHC063, OHZ017]
+    min_severity: moderate
+    events: []          # empty = all events at or above min_severity
+    exclude_events: []
+    # Always delivered at urgent priority (bypasses Do Not Disturb),
+    # regardless of severity or events filters.
+    urgent_events:
+      - Tornado Warning
+      - Severe Thunderstorm Warning
+      - Flash Flood Warning
+      - Extreme Wind Warning
+    skip_updates: false

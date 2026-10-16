@@ -1,0 +1,378 @@
+{
+  "type": "FeatureCollection",
+  "title": "Current watches, warnings, and advisories",
+  "updated": "2026-10-16T00:15:20+00:00",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a57ca64e00357b2b42117920495046759a6e1431.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -87.52,
+              38.9
+            ],
+            [
+              -87.53,
+              38.91
+            ],
+            [
+              -87.53,
+              38.92
+            ],
+            [
+              -87.52,
+              38.92
+            ],
+            [
+              -87.52,
+              38.94
+            ],
+            [
+              -87.51,
+              38.95
+            ],
+            [
+              -87.24,
+              39.03
+            ],
+            [
+              -87.12,
+              39.05
+            ],
+            [
+              -87.12,
+              38.96
+            ],
+            [
+              -87.52,
+              38.81
+            ],
+            [
+              -87.53,
+              38.82
+            ],
+            [
+              -87.52,
+              38.83
+            ],
+            [
+              -87.53,
+              38.85
+            ],
+            [
+              -87.55,
+              38.86
+            ],
+            [
+              -87.54,
+              38.87
+            ],
+            [
+              -87.55,
+              38.88
+            ],
+            [
+              -87.54,
+              38.88
+            ],
+            [
+              -87.54,
+              38.89
+            ],
+            [
+              -87.53,
+              38.9
+            ],
+            [
+              -87.52,
+              38.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a57ca64e00357b2b42117920495046759a6e1431.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.a57ca64e00357b2b42117920495046759a6e1431.001.1",
+        "areaDesc": "Greene, IN; Knox, IN; Sullivan, IN",
+        "geocode": {
+          "SAME": [
+            "018055",
+            "018083",
+            "018153"
+          ],
+          "UGC": [
+            "INC055",
+            "INC083",
+            "INC153"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/INC055",
+          "https://api.weather.gov/zones/county/INC083",
+          "https://api.weather.gov/zones/county/INC153"
+        ],
+        "references": [],
+        "sent": "2026-10-15T19:56:00-04:00",
+        "effective": "2026-10-15T19:56:00-04:00",
+        "onset": "2026-10-15T19:56:00-04:00",
+        "expires": "2026-10-15T23:00:00-04:00",
+        "ends": "2026-10-15T23:00:00-04:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Flood Advisory issued October 15 at 7:56PM EDT until October 15 at 11:00PM EDT by NWS Indianapolis IN",
+        "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...Southwestern Greene County in southwestern Indiana...\nNorth Central Knox County in southwestern Indiana...\nSoutheastern Sullivan County in southwestern Indiana...\n\n* WHEN...Until 1100 PM EDT.\n\n* IMPACTS...Minor flooding in low-ly",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSIND"
+          ],
+          "WMOidentifier": [
+            "WGUS83 KIND 152356"
+          ],
+          "NWSheadline": [
+            "FLOOD ADVISORY IN EFFECT UNTIL 11 PM EDT THIS EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KIND.FA.Y.0189.261015T2356Z-261016T0300Z/"
+          ],
+          "eventEndingTime": [
+            "2026-10-15T23:00:00-04:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FAY"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e89aacf00b071dafd4c3e3782224c3f30b2e8bdb.002.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e89aacf00b071dafd4c3e3782224c3f30b2e8bdb.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.e89aacf00b071dafd4c3e3782224c3f30b2e8bdb.002.1",
+        "areaDesc": "Ketchikan Gateway Borough; Annette Island",
+        "geocode": {
+          "SAME": [
+            "002130",
+            "002198"
+          ],
+          "UGC": [
+            "AKZ330",
+            "AKZ332"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/AKZ330",
+          "https://api.weather.gov/zones/forecast/AKZ332"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.856df55b41a4287564820f1f58fb27ee0a060477.001.2",
+            "identifier": "urn:oid:2.49.0.1.840.0.856df55b41a4287564820f1f58fb27ee0a060477.001.2",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-10-15T10:54:00-08:00"
+          }
+        ],
+        "sent": "2026-10-15T15:41:00-08:00",
+        "effective": "2026-10-15T15:41:00-08:00",
+        "onset": "2026-10-15T15:41:00-08:00",
+        "expires": "2026-10-15T23:45:00-08:00",
+        "ends": "2026-10-16T07:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "High Wind Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Juneau AK",
+        "headline": "High Wind Warning issued October 15 at 3:41PM AKDT until October 16 at 7:00AM AKDT by NWS Juneau AK",
+        "description": "* WHAT...Southeast winds 25 to 35 mph with gusts up to 60 mph. Gusts\nup to 75 mph at elevations greater than 500 ft.\n\n* WHERE...Annette Island and Ketchikan Gateway Borough.\n\n* WHEN...Until 7 AM AKDT Friday.\n\n* IMPACTS...High winds will blow around unsecured objects, damage\nproperty and cause power ",
+        "instruction": "Report any damage to the National Weather Service by visiting\nweather.gov/Juneau/StormReports.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "NPWAJK"
+          ],
+          "WMOidentifier": [
+            "WWAK77 PAJK 152341"
+          ],
+          "NWSheadline": [
+            "HIGH WIND WARNING REMAINS IN EFFECT UNTIL 7 AM AKDT FRIDAY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.CON.PAJK.HW.W.0011.000000T0000Z-261016T1500Z/"
+          ],
+          "eventEndingTime": [
+            "2026-10-16T07:00:00-08:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "HWW"
+          ],
+          "NationalWeatherService": [
+            "HWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3641915f0d3605ac8c72cdaf261f4dd14df4fc63.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.63,
+              32.56
+            ],
+            [
+              -97.63,
+              32.83
+            ],
+            [
+              -97.11,
+              32.75
+            ],
+            [
+              -97.11,
+              32.42
+            ],
+            [
+              -97.63,
+              32.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3641915f0d3605ac8c72cdaf261f4dd14df4fc63.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.3641915f0d3605ac8c72cdaf261f4dd14df4fc63.001.1",
+        "areaDesc": "Parker; Tarrant; Johnson",
+        "geocode": {
+          "SAME": [
+            "048367",
+            "048439",
+            "048251"
+          ],
+          "UGC": [
+            "TXZ117",
+            "TXZ118",
+            "TXZ133"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/TXZ117",
+          "https://api.weather.gov/zones/forecast/TXZ118",
+          "https://api.weather.gov/zones/forecast/TXZ133"
+        ],
+        "references": [],
+        "sent": "2026-10-15T19:08:00-05:00",
+        "effective": "2026-10-15T19:08:00-05:00",
+        "onset": "2026-10-15T19:08:00-05:00",
+        "expires": "2026-10-15T20:15:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fort Worth TX",
+        "headline": "Special Weather Statement issued October 15 at 7:08PM CDT by NWS Fort Worth TX",
+        "description": "At 708 PM CDT, Doppler radar was tracking a strong thunderstorm near\nBenbrook, moving east at 20 mph.\n\nHAZARD...Wind gusts up to 50 mph.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nFort Worth, Arlingto",
+        "instruction": "If outdoors, consider seeking shelter inside a building.",
+        "response": "Execute",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "SPSFWD"
+          ],
+          "WMOidentifier": [
+            "WWUS84 KFWD 160008"
+          ],
+          "NWSheadline": [
+            "A strong thunderstorm will impact portions of northeastern Johnson, southeastern Parker and southern Tarrant Counties through 815 PM CDT"
+          ],
+          "eventMotionDescription": [
+            "2026-10-16T00:08:00-00:00...storm...284DEG...19KT...32.65,-97.52"
+          ],
+          "maxWindGust": [
+            "50 MPH"
+          ],
+          "maxHailSize": [
+            "0.00"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "SPS"
+          ],
+          "NationalWeatherService": [
+            "SPS"
+          ]
+        }
+      }
+    }
+  ]
+}
