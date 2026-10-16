@@ -82,3 +82,7 @@ parser tests; the dispatcher tests run against a real SQLite store.
 - Self-hosted ntfy behind a Cloudflare Tunnel
 - Link notifications to a human-readable alert page instead of the API JSON
 - Polygon-based matching for storm-based warnings, not just county codes
+
+## License
+
+MIT
