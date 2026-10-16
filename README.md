@@ -65,6 +65,17 @@ curl localhost:8080/metrics          # Prometheus text format
 On the phone, install the ntfy app and subscribe to your topic. Enable
 "instant delivery" so notifications arrive without polling delay.
 
+## Hands-off operation
+
+- **Dependencies:** Dependabot opens weekly PRs for Go modules, Docker base
+  images and CI actions; they merge automatically once CI (tests +
+  govulncheck) passes.
+- **Deploys:** the host runs `deploy/update.sh` nightly from cron. It pulls
+  `main`, rebuilds with fresh base images, swaps the container only if the
+  image changed, health-checks it, and pushes a notification if any step fails.
+- **Runtime:** the watchdog reports sustained polling failures; Docker restarts
+  the container on crash and after reboots.
+
 ## Development
 
 ```sh
